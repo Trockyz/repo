@@ -1,0 +1,5 @@
+nameone=input("Person:1\nName:")
+ageone=int(input("Age:"))
+nametwo=input("Person 2:\nName:")
+agetwo=int(input("Age:"))
+print(f"{nameone} and {nametwo} are the same age" if ageone==agetwo  else"The elder is "+nameone if ageone>agetwo else"The elder is "+nametwo)
